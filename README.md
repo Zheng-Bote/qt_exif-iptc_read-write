@@ -1,12 +1,12 @@
 <div id="top" align="center">
-<h1>GH Repo Template</h1>
+<h1>qt_exif-iptc_read-write</h1>
 
-<p>Template for new Github repos</p>
+<p>QT6 CXX20 prep read / write EXIF and IPTC</p>
 
-[Report Issue](https://github.com/Zheng-Bote/repo-template/issues) [Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
+[Report Issue](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/issues) [Request Feature](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/pulls)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/repo-template)
+![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/qt_exif-iptc_read-write)
 
 </div>
 
@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
     - [Repo](#repo)
     - [Readme](#readme)
@@ -55,9 +56,11 @@
 # Description
 
 ![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
-![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
+![Node](https://img.shields.io/badge/6-C++20-blue?logo=qt)
 
-Repo template with README-template and some Github workflows and Github actions.
+QT6 CXX20 prep read / write EXIF and IPTC and some Github workflows and Github actions.
+
+Preparation for a project
 
 ### Features
 
@@ -73,21 +76,21 @@ Repo template with README-template and some Github workflows and Github actions.
 ### Repo
 
 ![Status](https://img.shields.io/badge/Status-works-green)
-![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
+![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/qt_exif-iptc_read-write)
 
-![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
+![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/qt_exif-iptc_read-write)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/qt_exif-iptc_read-write)
 
 ### Readme
 
-[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml)
-[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml)
+[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-create_tree_readme.yml)
+[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-actions_docu.yml)
 
-[![Repo - update Readme](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml)
+[![Repo - update Readme](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-call_Readme.yml/badge.svg)](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-call_Readme.yml)
 
 ### Markdown files
 
-[![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml)
+[![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/qt_exif-iptc_read-write/actions/workflows/repo-create_doctoc_md.yml)
 
 create ToC in Markdown files in folders
 
@@ -109,6 +112,7 @@ bla bla ... with a little help from my friends
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -137,6 +141,7 @@ bla bla ... with a little help from my friends
 
 5 directories, 18 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -298,12 +303,6 @@ pie title me
 
 ## License
 
-**This Repo-Template is using the MIT-License**
-
-**_other licenses see files `LICENSE_<name>`\_**
-
-### MIT License
-
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 Copyright (c) 2024 ZHENG Robert
@@ -327,22 +326,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
         https://choosealicense.com/licenses/mit/
-
-### Apache License
-
-[![Apache License](https://img.shields.io/badge/License-Apache_v2.0-green.svg)](<[https://choosealicense.com/licenses/mit/](http://www.apache.org/licenses/LICENSE-2.0)>)
-
-Copyright (c) 2019 ZHENG Robert
-
-Licensed under the **Apache License, Version 2.0** (the "License"); you may not use this file except in compliance with the License.
-
-You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
-See the License for the specific language governing permissions and limitations under the License.
 
 ## Authors
 
