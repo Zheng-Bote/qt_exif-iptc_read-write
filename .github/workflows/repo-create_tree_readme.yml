@@ -43,7 +43,7 @@ jobs:
         if: steps.verify_changed_files.outputs.files_changed == 'false'
         run: |
           echo "README.md has no uncommitted changes"
-          exit 1
+          #exit 1
 
       - name: commit and push
         if: steps.verify_changed_files.outputs.files_changed == 'true'
